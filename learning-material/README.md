@@ -1,5 +1,7 @@
 # Image data visualization with Python and Napari
 
+This teaching material was originally developed by Mallory Wittwer from EPFL's [Center for Imaging](https://imaging.epfl.ch/).
+
 ![segmentation](images/segmentation_fig.png)
 
 [Napari](https://www.napari.org/) is a multi-dimensional image viewer for Python. It is used to visualize scientific images and the data associated with them, such as segmentation masks, bounding boxes, and keypoints, for example. With Napari, you can
