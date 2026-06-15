@@ -26,7 +26,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/jules-vanaret/napari-imaging-epfl-2023/
+  url: https://github.com/jules-vanaret/napari-imaging-epfl-2026/
   branch: main
   path_to_book: "learning-material"
 
