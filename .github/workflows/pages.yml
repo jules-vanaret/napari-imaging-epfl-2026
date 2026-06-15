@@ -38,10 +38,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Build Jupyter Book
-        run: |
-          jupyter-book build learning-material --path-output learning-material/_build/html
+        run: jupyter-book build learning-material
       - name: Debug - List files
-        run: ls -R
+        run: ls -R learning-material/_build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
