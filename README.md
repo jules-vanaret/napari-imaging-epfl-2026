@@ -10,4 +10,4 @@ If you are interested in contributing to this repository, or have suggestions fo
 
 ## Acknowledgements
 
-This is a fork of the [original napari tutorial materials](https://epfl-center-for-imaging.github.io/napari-imaging-epfl-2023/) created by Mallory Wittwer.
+This is a fork of the [original napari tutorial materials](https://epfl-center-for-imaging.github.io/napari-imaging-epfl-2023/) created by Mallory Wittwer. 
