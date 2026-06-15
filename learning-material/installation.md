@@ -14,7 +14,7 @@ Once you have downloaded the installer, run it to install Python.
 
 `````{tab-set}
 ```{tab-item} Windows
-1. Run the executable file you just downloaded (`Miniforge3-Windows-x86_64.exe`) and follow the instructions.
+1. Run the executable file you just downloaded (`Miniconda3-latest-Windows-x86_64.exe`) and follow the instructions.
 2. Launch the *Anaconda Prompt* terminal from the start menu.
 ```
 ````{tab-item} Mac / Linux
@@ -25,14 +25,16 @@ Once you have downloaded the installer, run it to install Python.
 cd ~/Downloads
 ```
 
-1. Execute the installer with the command below. You can use your arrow keys to scroll up and down to read it/agree to it.
+3. Execute the installer with the command below. You can use your arrow keys to scroll up and down to read it/agree to it.
 
 ```bash
-bash Miniforge3-MacOSX-x86_64.sh -b
+bash ./Miniconda3-latest-MacOSX-arm64.sh -b
+# or
+bash ./Miniconda3-latest-Linux-x86_64.sh -b
 ```
 
-2. To verify that your installation worked, close your terminal window and open a new one. You should see `(base)` to the left of your prompt.
-3. Finally, initialize miniforge with the command below. This makes sure that your terminal is set up correctly for your Python installation.
+4. To verify that your installation worked, close your terminal window and open a new one. You should see `(base)` to the left of your prompt.
+5. Finally, initialize miniconda with the command below. This makes sure that your terminal is set up correctly for your Python installation.
 
 ```bash
 conda init
@@ -52,10 +54,10 @@ We will create a Python virtual environment that you can use for this workshop. 
 Type the following commands in your terminal to create a virtual environment (named `napari-env`) using `conda`:
 
 ```bash
-conda create -n napari-env python=3.9
+conda create -n napari-env python=3.12
 ```
 
-The `-n` parameter specifies the name of the virtual environment (here, *napari-env*). We also specify the Python version to be 3.9. Python is constantly evolving and new versions are regularly released. At the time of writing, modern versions include 3.8 to 3.11.
+The `-n` parameter specifies the name of the virtual environment (here, *napari-env*). We also specify the Python version to be 3.12. Python is constantly evolving and new versions are regularly released. At the time of writing, modern versions include 3.10 to 3.14.
 
 ```{tip}
 You can check which virtual environments are available on your machine by typing `conda env list`.
