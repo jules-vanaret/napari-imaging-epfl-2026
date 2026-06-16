@@ -134,9 +134,9 @@ You can install Napari plugins as Python packages using `pip` (e.g. `pip install
 ```
 
 ```{dropdown} 15. Can I develop my own Napari plugin?
-Once you have developed a working image analysis functionality, you can [turn it into a plugin](https://napari.org/stable/plugins/first_plugin.html). If you think your plugin could be useful to others, you can publish it as a Python package and share it on the [Napari Hub](https://www.napari-hub.org/).
+Once you have developed a working image analysis functionality, you can [turn it into a plugin](https://napari.org/stable/plugins/building_a_plugin/first_plugin.html#your-first-plugin). If you think your plugin could be useful to others, you can publish it as a Python package and share it on the [Napari Hub](https://www.napari-hub.org/).
 
-To develop your own Napari plugin, you will likely have to learn how to use the [`magicgui`](https://napari.org/stable/guides/magicgui.html) library as well as the basics of [Qt for Python](https://doc.qt.io/qtforpython-6/), which are the tools behind user interface creation in Napari.
+To develop your own Napari plugin, you will likely have to learn how to use the [`magicgui`](https://napari.org/0.4.15/guides/magicgui.html) library as well as the basics of [Qt for Python](https://doc.qt.io/qtforpython-6/), which are the tools behind user interface creation in Napari.
 ```
 
 ```{dropdown} 16. Where can I find examples of Napari visualizations?
@@ -144,9 +144,9 @@ Check out the [Napari Examples Gallery](https://napari.org/stable/gallery.html).
 ```
 
 ```{dropdown} 17. What is the Napari bundled app?
-In principle, Napari can be installed as a [bundled app](https://napari.org/stable/tutorials/fundamentals/installation.html#install-as-a-bundled-app). However, the bundled app is still in active development, may not be very stable, and you cannot install plugins in it. Therefore, it is strongly recommended to install Napari as a Python package instead.
+In principle, Napari can be installed as a [bundled app](https://napari.org/stable/getting_started/installation.html#install-as-an-application). However, the bundled app is still in active development, may not be very stable, and you cannot install plugins in it. Therefore, it is strongly recommended to install Napari as a Python package instead.
 ```
 
 ```{dropdown} 18. Where can I find help in image analysis in EPFL?
-The Center for Imaging's [Image Analysis Hub](https://imaging.epfl.ch/image-analysis/#hub) provides EPFL-wide support in image analysis. Don't hesitate to contact us by sending an email at `imaging@epfl.ch` to schedule a discussion about your specific challenges. We're always happy to help!
+The Center for Imaging's [Image Analysis Hub](https://imaging.epfl.ch/image-processing) provides EPFL-wide support in image analysis. Don't hesitate to contact us by sending an email at `imaging@epfl.ch` to schedule a discussion about your specific challenges. We're always happy to help!
 ```
