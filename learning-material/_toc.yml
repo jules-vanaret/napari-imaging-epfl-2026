@@ -12,6 +12,7 @@ chapters:
   - file: download
 - file: notebooks/README
   sections:
+  - file: notebooks/napari_intro.ipynb
   - file: notebooks/segmentation_3d.ipynb
   - file: notebooks/tracking_2d.ipynb
   - file: notebooks/nuclei_stardist.ipynb

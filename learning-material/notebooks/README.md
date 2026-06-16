@@ -6,6 +6,12 @@ In the following sections you'll find a collection of Jupyter notebook examples 
 :padding: 2
 :margin: 2
 
+````{card} Notebook for the Imaging Lunch 2026
+:link: ./napari_intro.html
+
+Introduction to the Napari viewer, segmentation of a 3D cell sample using the watershed segmentation algorithm, and creation of a very minimal Napari plugin.
+```
+
 ````{card} n-D Image data visualization in Napari
 :link: ./segmentation_3d.html
 
